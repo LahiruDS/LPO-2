@@ -1,22 +1,23 @@
 import { useState } from 'react';
 import { FaMapMarkerAlt, FaPhone, FaEnvelope, FaClock, FaPaperPlane, FaCheck, FaWhatsapp } from 'react-icons/fa';
 import './Contact.css';
+import emailjs from "@emailjs/browser";
 
 const contactInfo = [
   {
     icon: <FaMapMarkerAlt />,
     title: 'Visit Our Office',
-    lines: ['No.19, Market Building', 'Ja-Ela, Sri Lanka 10100'],
+    lines: ['No.19, Market Building', 'Ja-Ela, Sri Lanka 11350'],
   },
   {
     icon: <FaPhone />,
     title: 'Call Us',
-    lines: ['+94 11 234 5678', '+94 77 123 4567'],
+    lines: ['+94 77 256 6357'],
   },
   {
     icon: <FaEnvelope />,
     title: 'Email Us',
-    lines: ['info@jayasekaralegal.com', 'urgent@jayasekaralegal.com'],
+    lines: ['jayasekaralawassociate@gmail.com'],
   },
   {
     icon: <FaClock />,
@@ -39,11 +40,42 @@ const Contact = () => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    setSubmitted(true);
-    setTimeout(() => setSubmitted(false), 3000);
-  };
+const handleSubmit = (e) => {
+  e.preventDefault();
+
+  emailjs
+    .send(
+      "service_0xvbhyw",
+      "template_2cu75y9",
+      {
+        name: formData.name,
+        phone: formData.phone,
+        email: formData.email,
+        service: formData.service,
+        message: formData.message,
+      },
+      "3vbomHScAhXc6LhTO"
+    )
+    .then(
+      () => {
+        setSubmitted(true);
+
+        setFormData({
+          name: "",
+          phone: "",
+          email: "",
+          service: "",
+          message: "",
+        });
+
+        setTimeout(() => setSubmitted(false), 3000);
+      },
+      (error) => {
+        console.log(error);
+        alert("Failed to send consultation request.");
+      }
+    );
+};
 
   return (
     <section id="contact" className="contact">
@@ -93,7 +125,7 @@ const Contact = () => {
             </div>
 
             <a
-              href="https://wa.me/94771234567?text=Hi%2C%20I%20need%20legal%20assistance."
+              href="https://wa.me/94772566357?text=Hello%20Jayasekara%20Legal%20Associates,%20I%20would%20like%20to%20book%20a%20free%20consultation."
               target="_blank"
               rel="noopener noreferrer"
               className="whatsapp-btn"
