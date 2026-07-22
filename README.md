@@ -101,16 +101,7 @@ Ja-Ela, Sri Lanka 11350
 
 ## 📸 Preview
 
-Add screenshots of your website here.
-
-Example:
-
-```
-screenshots/
-│── home.png
-│── services.png
-│── contact.png
-```
+Watch Live Demo: https://lpo-2.vercel.app/
 
 ---
 
