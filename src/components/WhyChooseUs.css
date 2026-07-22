@@ -1,0 +1,126 @@
+.why-us {
+  padding: 100px 0;
+  background: var(--bg-primary);
+  position: relative;
+  overflow: hidden;
+}
+
+[data-theme="dark"] .why-us {
+  background: var(--bg-primary);
+}
+
+[data-theme="light"] .why-us {
+  background: #0A1628;
+}
+
+.why-us-bg {
+  position: absolute;
+  inset: 0;
+  background:
+    var(--overlay-gradient),
+    radial-gradient(ellipse at 100% 100%, rgba(201, 168, 76, 0.04) 0%, transparent 50%);
+}
+
+.why-us-layout {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 80px;
+  align-items: start;
+  position: relative;
+  z-index: 2;
+}
+
+.why-us-title {
+  color: #FFFFFF;
+  font-size: 2.6rem;
+  margin-bottom: 20px;
+  line-height: 1.15;
+}
+
+.why-us-title .gold {
+  color: var(--gold);
+}
+
+.why-us-text {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 1rem;
+  line-height: 1.8;
+  margin-bottom: 32px;
+}
+
+.btn-outline {
+  display: inline-block;
+  padding: 14px 32px;
+  border: 1px solid var(--gold);
+  color: var(--gold);
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  letter-spacing: 0.3px;
+}
+
+.btn-outline:hover {
+  background: var(--gold);
+  color: #0A1628;
+}
+
+.why-us-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.reason-card {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(201, 168, 76, 0.1);
+  border-radius: 8px;
+  padding: 32px 24px;
+  transition: var(--transition);
+}
+
+.reason-card:hover {
+  background: rgba(255, 255, 255, 0.06);
+  border-color: rgba(201, 168, 76, 0.3);
+  transform: translateY(-4px);
+}
+
+.reason-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 8px;
+  background: rgba(201, 168, 76, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--gold);
+  font-size: 1.2rem;
+  margin-bottom: 16px;
+}
+
+.reason-title {
+  color: #FFFFFF;
+  font-size: 1.05rem;
+  margin-bottom: 8px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.reason-description {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.85rem;
+  line-height: 1.7;
+}
+
+@media (max-width: 768px) {
+  .why-us-layout {
+    grid-template-columns: 1fr;
+    gap: 48px;
+  }
+
+  .why-us-title {
+    font-size: 2rem;
+  }
+
+  .why-us-grid {
+    grid-template-columns: 1fr;
+  }
+}
