@@ -29,7 +29,7 @@ const Footer = () => {
               </p>
               <div className="footer-social">
                 <a href="https://facebook.com/jayasekaralegal" className="social-link" aria-label="Facebook" target="_blank" rel="noopener noreferrer"><FaFacebookF /></a>
-                <a href="https://linkedin.com/company/jayasekara-legal-associates" className="social-link" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer"><FaLinkedinIn /></a>
+                <a href="https://www.linkedin.com/in/nipun-chinthaka-8a95821a0/" className="social-link" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer"><FaLinkedinIn /></a>
                 <a href="https://twitter.com/jayasekaralegal" className="social-link" aria-label="Twitter" target="_blank" rel="noopener noreferrer"><FaTwitter /></a>
               </div>
             </div>
@@ -63,12 +63,12 @@ const Footer = () => {
               <ul className="footer-links">
                 <li>No.19, Market Building</li>
                 <li>Ja-Ela</li>
-                <li>Sri Lanka 10100</li>
+                <li>Sri Lanka 11350</li>
                 <li style={{ marginTop: '12px' }}>
-                  <a href="tel:+94112345678">+94 11 234 5678</a>
+                  <a href="tel:+94772566357">+94 77 256 6357</a>
                 </li>
                 <li>
-                  <a href="mailto:info@jayasekaralegal.com">info@jayasekaralegal.com</a>
+                  <a href="mailto:jayasekaralawassociate@gmail.com">jayasekaralawassociate@gmail.com</a>
                 </li>
                 <li style={{ marginTop: '8px', color: 'rgba(255,255,255,0.35)', fontSize: '0.82rem' }}>
                   Mon-Fri: 9AM-5:30PM<br/>Sat: 9AM-12PM
