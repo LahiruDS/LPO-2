@@ -4,7 +4,7 @@ import './About.css';
 const About = () => {
   const highlights = [
     'Sri Lanka Bar Association Registered',
-    '20+ Years of Legal Excellence in Sri Lanka',
+    '10+ Years of Legal Excellence in Sri Lanka',
     'Serving Clients Across All 25 Districts',
     'Free Initial Legal Consultation',
   ];
@@ -23,7 +23,7 @@ const About = () => {
               Defending <span className="gold">Your Rights</span> Across Sri Lanka
             </h2>
             <p className="about-text">
-              Founded in 2005 in Ja-Ela, Jayasekara Legal Associates has been
+              Founded in 2016 in Ja-Ela, Jayasekara Legal Associates has been
               a pillar of legal excellence in Sri Lanka for over two decades. Our
               team of experienced advocates and attorneys provides personalized
               legal representation to individuals, families, and businesses
