@@ -83,7 +83,8 @@ const Footer = () => {
         <div className="section-container">
           <div className="footer-bottom-inner">
             <p className="copyright">
-              &copy; {new Date().getFullYear()} Jayasekara Legal Associates. All rights reserved. | Ja-Ela, Sri Lanka
+              &copy; {new Date().getFullYear()} Jayasekara Legal Associates. All rights reserved. | Ja-Ela, Sri Lanka<br></br>
+              Designed by <a href="https://www.linkedin.com/in/lahiru-de-silva-86b0b1329/" target="_blank" rel="noopener noreferrer">Lahiru De Silva</a>
             </p>
             <button className="back-to-top" onClick={scrollToTop} aria-label="Back to top">
               <FaArrowUp />
