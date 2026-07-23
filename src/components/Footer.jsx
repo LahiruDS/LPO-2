@@ -25,7 +25,7 @@ const Footer = () => {
               </div>
               <p className="footer-about">
                 Trusted law firm in Ja-Ela, Sri Lanka. Providing expert legal
-                services to individuals and businesses for over 20 years.
+                services to individuals and businesses for over 10 years.
               </p>
               <div className="footer-social">
                 <a href="https://facebook.com/jayasekaralegal" className="social-link" aria-label="Facebook" target="_blank" rel="noopener noreferrer"><FaFacebookF /></a>
