@@ -44,7 +44,7 @@ const Header = () => {
 </div>
             <div className="logo-text">
               <span className="logo-name">Jayasekara</span>
-              <span className="logo-subtitle">LegaAssociates</span>
+              <span className="logo-subtitle">Legal Associates</span>
             </div>
           </Link>
 
