@@ -29,31 +29,22 @@ const Header = () => {
 
   return (
     <>
-      <div className="top-bar">
-        <div className="top-bar-inner section-container">
-          <div className="top-bar-left">
-            <span><FaPhone /> +94 11 234 5678</span>
-            <span><FaEnvelope /> info@jayasekaralegal.com</span>
-          </div>
-          <div className="top-bar-right">
-            <span>Ja-Ela, Sri Lanka | Serving Clients Island-Wide</span>
-          </div>
-        </div>
-      </div>
 
-      <header className={`header ${isScrolled ? 'scrolled' : ''}`}>
+
+      <header className="">
         <div className="header-inner section-container">
           <Link to="home" smooth={true} duration={500} className="logo">
-            <div className="logo-icon">
-              <svg viewBox="0 0 50 50" width="42" height="42">
-                <polygon points="25,2 3,48 25,38 47,48" fill="none" stroke="currentColor" strokeWidth="2"/>
-                <line x1="25" y1="18" x2="25" y2="38" stroke="currentColor" strokeWidth="2"/>
-                <line x1="14" y1="30" x2="36" y2="30" stroke="currentColor" strokeWidth="1.5"/>
-              </svg>
-            </div>
+<div className="logo-icon w-[50px] h-[50px] rounded-full overflow-hidden flex items-center justify-center">
+  <Link to="home" smooth={true} duration={500}>
+  <img
+    src="/Logo2.png"
+    alt="Jayasekara Legal Associates Logo"
+    className="w-full h-full object-contain"
+  /></Link>
+</div>
             <div className="logo-text">
               <span className="logo-name">Jayasekara</span>
-              <span className="logo-subtitle">Legal Associates</span>
+              <span className="logo-subtitle">LegaAssociates</span>
             </div>
           </Link>
 
