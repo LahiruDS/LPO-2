@@ -115,6 +115,12 @@ const Footer = () => {
                 <li>Sri Lanka 11350</li>
 
                 <li style={{ marginTop: "12px" }}>
+                  <a href="tel:+94112225626">
+                    +94 11 222 5626
+                  </a>
+                  
+                </li>
+                <li>
                   <a href="tel:+94772566357">
                     +94 77 256 6357
                   </a>
