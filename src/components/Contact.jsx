@@ -12,7 +12,7 @@ const contactInfo = [
   {
     icon: <FaPhone />,
     title: 'Call Us',
-    lines: ['+94 77 256 6357'],
+    lines: [ '+94 11 222 5626', '+94 77 256 6357' ],
   },
   {
     icon: <FaEnvelope />,
