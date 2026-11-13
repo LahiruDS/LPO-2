@@ -96,14 +96,15 @@
   width: 160px;
   height: 160px;
   border-radius: 50%;
-  border: 2px solid var(--gold);
+  border: 1px solid var(--border-color-strong);
   display: flex;
   align-items: center;
   justify-content: center;
   color: var(--gold);
   position: relative;
   z-index: 2;
-  background: var(--bg-primary);
+  background: var(--bg-card);
+  box-shadow: 0 0 0 12px rgba(214, 182, 111, 0.05);
   transition: background-color 0.4s ease;
 }
 
@@ -120,7 +121,7 @@
   position: absolute;
   background: var(--bg-card);
   padding: 20px 24px;
-  border-radius: 8px;
+  border-radius: 14px;
   box-shadow: var(--shadow-card);
   display: flex;
   align-items: center;

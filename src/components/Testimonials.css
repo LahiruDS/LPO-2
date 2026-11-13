@@ -30,12 +30,12 @@
 .carousel-btn:hover {
   border-color: var(--gold);
   color: var(--gold);
-  background: rgba(201, 168, 76, 0.05);
+  background: rgba(214, 182, 111, 0.08);
 }
 
 .testimonial-card {
   background: var(--bg-card);
-  border-radius: 12px;
+  border-radius: 18px;
   padding: 48px;
   box-shadow: var(--shadow-card);
   position: relative;

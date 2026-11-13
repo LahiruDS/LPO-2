@@ -14,7 +14,7 @@
 
 .faq-item {
   border: 1px solid var(--border-color);
-  border-radius: 8px;
+  border-radius: 14px;
   overflow: hidden;
   transition: border-color 0.3s ease;
 }
@@ -29,6 +29,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 20px 24px;
+  border-radius: 0;
   background: var(--bg-card);
   color: var(--text-primary);
   font-size: 0.95rem;

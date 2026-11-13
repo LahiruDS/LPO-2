@@ -113,7 +113,7 @@ const handleSubmit = (e) => {
 
             <div className="contact-map">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63193.54882184965!2d79.8167!3d7.0833!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae2578f5e5e5e5e%3A0x1234567890!2sJa-Ela%2C%20Sri%20Lanka!5e0!3m2!1sen!2s!4v1700000000000!5m2!1sen!2s"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.399523913578!2d79.88830127934567!3d7.079594700000014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae2f116c57dda5f%3A0xca4d71cb0a22774a!2sJayasekara%20Law%20Associates!5e0!3m2!1sen!2slk!4v1794549191036!5m2!1sen!2slk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"
                 width="100%"
                 height="220"
                 style={{ border: 0, borderRadius: '8px' }}
